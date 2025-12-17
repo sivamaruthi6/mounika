@@ -1,1 +1,11 @@
-siva 
+steps:
+- name: 'gcr.io/cloud-builders/gsutil'
+  args:
+    - '-m'
+    - 'cp'
+    - '-r'
+    - '.'
+    - 'gs://sumukh4/'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
