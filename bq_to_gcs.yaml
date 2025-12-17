@@ -1,0 +1,8 @@
+name: export_bq_to_gcs
+description: Export BigQuery table to GCS using Dataflow
+type: Python
+pythonFlexTemplateOptions:
+  pythonFilePath: gs://sumukh4/pipeline.py
+  requirementsFilePath: gs://sumukh3/requirements.txt
+  tempLocation: gs://sumukh3/tmp/
+  workerRegion: us-central1
