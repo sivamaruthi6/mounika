@@ -5,7 +5,7 @@ steps:
     - 'cp'
     - '-r'
     - '.'
-    - 'gs://sumukh4/'
+    - 'gs://sumukh5/'
 
 logsBucket: gs://cloudbuild-logs-sumukh4
 

@@ -6,3 +6,4 @@ pythonFlexTemplateOptions:
   requirementsFilePath: gs://sumukh3/requirements.txt
   tempLocation: gs://sumukh3/tmp/
   workerRegion: us-central1
+
