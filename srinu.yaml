@@ -6,7 +6,7 @@ steps:
     - '-r'
     - '.'
     - 'gs://sumukh4/'
+  logsBucket: gs://cloudbuild-logs-sumukh4
 
 options:
-  logging: GCS_ONLY
-  logsBucket: gs://cloudbuild-logs-sumukh4
+  logging: GCS_ONLY  
