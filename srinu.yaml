@@ -8,8 +8,5 @@ steps:
     - 'gs://sumukh4/'
 
 options:
-  logging: CLOUD_LOGGING_ONLY
+  logging: GCS_ONLY
   logsBucket: gs://cloudbuild-logs-sumukh4
-
-
-
