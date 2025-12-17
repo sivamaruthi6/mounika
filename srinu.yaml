@@ -11,3 +11,4 @@ logsBucket: gs://cloudbuild-logs-sumukh4
 
 options:
   logging: GCS_ONLY
+
